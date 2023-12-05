@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Fragments App</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="segundo">Segundo</string>
+    <string name="primero">Primero</string>
+    <string name="Tercero">Tercero</string>
+    <string name="Cuarto">Cuarto</string>
+    <string name="Quinto">Quinto</string>
+    <string name="Sexto">Sexto</string>
+    <string name="Septimo">Septimo</string>
+    <string name="Octavo">Octavo</string>
+    <string name="Noveno">Noveno</string>
+    <string name="ir_sexto">Ir Sexto</string>
+    <string name="ir_quinto">Ir Quinto</string>
+    <string name="ir_septimo">Ir Septimo</string>
+    <string name="ir_octavo">Ir Octavo</string>
+    <string name="ir_noveno">Ir Noveno</string>
+    <string name="ir_tercero">Ir Tercero</string>
+    <string name="ir_segundo">Ir Segundo</string>
+    <string name="ir_cuarto">Ir Cuarto</string>
+    <string name="ir_primero">Ir Primero</string>
+    <string name="fragment_2">Fragment 2</string>
+    <string name="fragment_5">Fragment 5</string>
+    <string name="fragment_8">Fragment 8</string>
+
+</resources>

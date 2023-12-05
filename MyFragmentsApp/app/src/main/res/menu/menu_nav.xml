@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_fragment2"
+        android:title="@string/fragment_2" />
+    <item
+        android:id="@+id/navigation_fragment5"
+        android:title="@string/fragment_5" />
+    <item
+        android:id="@+id/navigation_fragment8"
+        android:title="@string/fragment_8" />
+</menu>

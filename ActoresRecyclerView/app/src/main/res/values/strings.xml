@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ActoresRecyclerView</string>
+    <string name="actores">actores</string>
+    <string name="repetido">Actor ya creado</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="otro">Otro</string>
+    <string name="est_vivo">¿Está vivo?</string>
+    <string name="nombre">Nombre</string>
+    <string name="premios_scar">Premios Óscar</string>
+    <string name="pel_cula_famosa">Película Famosa</string>
+    <string name="name">name</string>
+    <string name="actualizar_actor">ACTUALIZAR ACTOR</string>
+    <string name="button">Button</string>
+</resources>

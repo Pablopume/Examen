@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nombre": "brad",
+    "activo": true,
+    "pelicula": "titanic",
+    "rating": 2,
+    "genero": "Masculino"
+  },
+  {
+    "id": 2,
+    "nombre": "santi",
+    "activo": true,
+    "pelicula": "torrente",
+    "rating": 9,
+    "genero": "Masculino"
+  },
+  {
+    "id": 3,
+    "nombre": "PENÉLOPE",
+    "activo": true,
+    "pelicula": "PIRATAS DEL CARIBE",
+    "rating": 2,
+    "genero": "Femenino"
+  },
+  {
+    "id": 4,
+    "nombre": "antonio",
+    "activo": true,
+    "pelicula": "zorro",
+    "rating": 7,
+    "genero": "Masculino"
+  },
+  {
+    "id": 5,
+    "nombre": "leonardo",
+    "activo": true,
+    "pelicula": "shutter",
+    "rating": 1,
+    "genero": "Masculino"
+  }
+]

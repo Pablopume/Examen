@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigator"
+    app:startDestination="@id/primerFragment">
+
+    <fragment
+        android:id="@+id/primerFragment"
+        android:name="com.example.myfragmentsapp.pantallasraiz1.PrimerFragment"
+        android:label="@string/primero"
+        tools:layout="@layout/fragment_primer">
+        <action
+            android:id="@+id/action_primerFragment_to_segundoFragment"
+            app:destination="@id/segundoFragment" />
+        <action
+            android:id="@+id/action_primerFragment_to_tercerFragment"
+            app:destination="@id/tercerFragment" />
+        <argument
+            android:name="mensaje"
+            android:defaultValue=""
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/segundoFragment"
+        android:name="com.example.myfragmentsapp.pantallasraiz1.SegundoFragment"
+        android:label="@string/segundo"
+        tools:layout="@layout/fragment_segundo" >
+        <argument
+            android:name="mensaje"
+            android:defaultValue=""
+            app:argType="string"
+            app:nullable="true" />
+
+        <action
+            android:id="@+id/action_segundoFragment_to_primerFragment"
+            app:destination="@id/primerFragment" />
+        <action
+            android:id="@+id/action_segundoFragment_to_quintoFragment"
+            app:destination="@id/quintoFragment" />
+        <action
+            android:id="@+id/action_segundoFragment_to_octavoFragment"
+            app:destination="@id/octavoFragment" />
+        <action
+            android:id="@+id/action_segundoFragment_to_tercerFragment"
+            app:destination="@id/tercerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tercerFragment"
+        android:name="com.example.myfragmentsapp.pantallasraiz1.TercerFragment"
+        android:label="@string/Tercero"
+        tools:layout="@layout/fragment_tercer" >
+        <argument
+            android:name="mensaje"
+            android:defaultValue=""
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_tercerFragment_to_primerFragment"
+            app:destination="@id/primerFragment" />
+        <action
+            android:id="@+id/action_tercerFragment_to_segundoFragment"
+            app:destination="@id/segundoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cuartoFragment"
+        android:name="com.example.myfragmentsapp.pantallasraiz2.CuartoFragment"
+        android:label="@string/Cuarto"
+        tools:layout="@layout/fragment_cuarto">
+        <action
+            android:id="@+id/action_cuartoFragment_to_quintoFragment"
+            app:destination="@id/quintoFragment" />
+        <action
+            android:id="@+id/action_cuartoFragmento_to_sextoFragment"
+            app:destination="@id/sextoFragment" />
+        <argument
+            android:name="mensaje"
+            android:defaultValue=""
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/quintoFragment"
+        android:name="com.example.myfragmentsapp.pantallasraiz2.QuintoFragment"
+        android:label="@string/Quinto"
+        tools:layout="@layout/fragment_quinto" >
+        <argument
+            android:name="mensaje"
+            android:defaultValue=""
+            app:argType="string"
+            app:nullable="true" />
+
+        <action
+            android:id="@+id/action_quintoFragment_to_segundoFragment"
+            app:destination="@id/segundoFragment" />
+        <action
+            android:id="@+id/action_quintoFragment_to_octavoFragment"
+            app:destination="@id/octavoFragment" />
+        <action
+            android:id="@+id/action_quintoFragment_to_sextoFragment"
+            app:destination="@id/sextoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sextoFragment"
+        android:name="com.example.myfragmentsapp.pantallasraiz2.SextoFragment"
+        android:label="@string/Sexto"
+        tools:layout="@layout/fragment_sexto" >
+        <argument
+            android:name="mensaje"
+            android:defaultValue=""
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_sextoFragment_to_quintoFragment"
+            app:destination="@id/quintoFragment" />
+        <action
+            android:id="@+id/action_sextoFragment_to_cuartoFragment"
+            app:destination="@id/cuartoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/septimoFragment"
+        android:name="com.example.myfragmentsapp.pantallasraiz3.SeptimoFragment"
+        android:label="@string/Septimo"
+        tools:layout="@layout/fragment_septimo" >
+        <argument
+            android:name="mensaje"
+            android:defaultValue=""
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_septimoFragment_to_octavoFragment"
+            app:destination="@id/octavoFragment" />
+        <action
+            android:id="@+id/action_septimoFragment_to_novenoFragment"
+            app:destination="@id/novenoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/octavoFragment"
+        android:name="com.example.myfragmentsapp.pantallasraiz3.OctavoFragment"
+        android:label="@string/Octavo"
+        tools:layout="@layout/fragment_octavo" >
+        <argument
+            android:name="mensaje"
+            android:defaultValue=""
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_octavoFragment_to_septimoFragment"
+            app:destination="@id/septimoFragment" />
+        <action
+            android:id="@+id/action_octavoFragment_to_quintoFragment"
+            app:destination="@id/quintoFragment" />
+        <action
+            android:id="@+id/action_octavoFragment_to_segundoFragment"
+            app:destination="@id/segundoFragment" />
+        <action
+            android:id="@+id/action_octavoFragment_to_novenoFragment"
+            app:destination="@id/novenoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/novenoFragment"
+        android:name="com.example.myfragmentsapp.pantallasraiz3.NovenoFragment"
+        android:label="@string/Noveno"
+        tools:layout="@layout/fragment_noveno" >
+        <argument
+            android:name="mensaje"
+            android:defaultValue=""
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_novenoFragment_to_septimoFragment"
+            app:destination="@id/septimoFragment" />
+        <action
+            android:id="@+id/action_novenoFragment_to_octavoFragment"
+            app:destination="@id/octavoFragment" />
+    </fragment>
+
+</navigation>
